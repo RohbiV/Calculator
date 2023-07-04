@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <title>Simple Calculator</title>
+    <script src="main.js" defer></script>
+</head>
+
+<body>
+    <header class="above">
+        <h1 id="head">SocVoc Calc</h1>
+    </header>
+
+    <div class="outer_layer">
+        <div class="output">
+            <div data-previous-operand class="previous-operand"></div>
+            <div data-current-operand class="current-operand"></div>
+        </div>
+
+        <!-- now the grid -->
+        <div class="keysLayout">
+            <!-- opkey=key for operation -->
+            <!-- key are normal numbers -->
+
+            <div class="opkey">
+                <button class="opkey1" data-all-clear>AC</button>
+            </div>
+            <div class="opkey">
+                <button class="opkey2" data-clear>C</button>
+            </div>
+            <div class="opkey">
+                <button class="opkey3" data-operation>/</button>
+            </div>
+            <div class="opkey">
+                <button class="opkey4" data-operation>*</button>
+            </div>
+
+            <div class="key">
+                <button class="key7" data-number>7</button>
+            </div>
+            <div class="key">
+                <button class="key8" data-number>8</button>
+            </div>
+            <div class="key">
+                <button class="key9" data-number>9</button>
+            </div>
+
+            <div class="opkey">
+                <button class="opkey4" data-operation>-</button>
+            </div>
+
+
+
+            <div class="key">
+                <button class="key4" data-number>4</button>
+            </div>
+            <div class="key">
+                <button class="key5" data-number>5</button>
+            </div>
+            <div class="key">
+                <button class="key6" data-number>6</button>
+            </div>
+
+            <div class="opkey">
+                <button class="opkey5" data-operation>+</button>
+            </div>
+
+            <div class="key">
+                <button class="key1" data-number>1</button>
+            </div>
+            <div class="key">
+                <button class="key2" data-number>2</button>
+            </div>
+            <div class="key">
+                <button class="key3" data-number>3</button>
+            </div>
+
+            <div class="opkey" id="spankey1">
+                <button class="opkey6" data-equals>Enter</button>
+            </div>
+
+            <div class="key" id="spankey2">
+                <button class="key0" data-number>0</button>
+            </div>
+
+            <div class="opkey">
+                <button class="opkey7" data-number>.</button>
+            </div>
+
+        </div>
+
+        <h1>Calculator</h1>
+    </div>
+
+</body>
+
+</html>
